@@ -1,0 +1,289 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "madsrdf:Geographic",
+    "authoritativeLabel" : "Korea (South)"
+  }, {
+    "@id" : "_:b1",
+    "@type" : [ "bflc:PrimaryContribution", "bf:Contribution" ],
+    "agent" : "http://id.loc.gov/rwo/agents/n2019037634",
+    "role" : "http://id.loc.gov/vocabulary/relators/aut"
+  }, {
+    "@id" : "_:b10",
+    "@type" : "bf:Title",
+    "mainTitle" : "No Mu-hyŏn ŭl wihan pyŏnmyŏng",
+    "label" : "No Mu-hyŏn ŭl wihan pyŏnmyŏng"
+  }, {
+    "@id" : "_:b11",
+    "@type" : "bf:Contribution",
+    "agent" : "http://id.loc.gov/rwo/agents/n2019037635",
+    "role" : "http://id.loc.gov/vocabulary/relators/aut"
+  }, {
+    "@id" : "_:b12",
+    "@type" : "bf:Agent",
+    "label" : "OCLCF"
+  }, {
+    "@id" : "_:b13",
+    "@type" : "bf:AdminMetadata",
+    "encodingLevel" : "http://id.loc.gov/vocabulary/menclvl/f",
+    "changeDate" : "2019-06-27T14:25:17",
+    "creationDate" : "2019-06-19",
+    "descriptionAuthentication" : "http://id.loc.gov/vocabulary/marcauthen/lccopycat",
+    "descriptionConventions" : [ "http://id.loc.gov/vocabulary/descriptionConventions/isbd", "http://id.loc.gov/vocabulary/descriptionConventions/rda" ],
+    "descriptionLanguage" : "http://id.loc.gov/vocabulary/languages/eng",
+    "descriptionModifier" : [ "http://id.loc.gov/vocabulary/organizations/dlc", "_:b12" ],
+    "generationProcess" : "_:b15",
+    "identifiedBy" : "_:b2",
+    "source" : [ "_:b6", "_:b9" ],
+    "status" : "_:b14"
+  }, {
+    "@id" : "_:b14",
+    "@type" : "bf:Status",
+    "code" : "c",
+    "label" : "corrected or revised"
+  }, {
+    "@id" : "_:b15",
+    "@type" : "bf:GenerationProcess",
+    "label" : "DLC marc2bibframe2 v1.6.0-SNAPSHOT: 2019-08-22T11:16:50-04:00"
+  }, {
+    "@id" : "_:b16",
+    "@type" : "bf:Title",
+    "mainTitle" : {
+      "@language" : "ko-hang",
+      "@value" : "노 무현 을 위한 변명"
+    },
+    "label" : {
+      "@language" : "ko-hang",
+      "@value" : "노 무현 을 위한 변명"
+    }
+  }, {
+    "@id" : "_:b17",
+    "@type" : "bf:Contribution",
+    "agent" : "http://id.loc.gov/rwo/agents/n2019037636",
+    "role" : "http://id.loc.gov/vocabulary/relators/aut"
+  }, {
+    "@id" : "_:b18",
+    "@type" : "madsrdf:Topic",
+    "authoritativeLabel" : "Political leadership"
+  }, {
+    "@id" : "_:b19",
+    "@type" : "bf:Lccn",
+    "value" : "  2019411212"
+  }, {
+    "@id" : "_:b2",
+    "@type" : "bf:Local",
+    "assigner" : "http://id.loc.gov/vocabulary/organizations/dlc",
+    "value" : "21026276"
+  }, {
+    "@id" : "_:b20",
+    "@type" : [ "madsrdf:ComplexSubject", "bf:Topic" ],
+    "aap-normalized" : "rohmoohyun19462009politicalandsocialviews",
+    "authoritativeLabel" : "Roh, Moo Hyun, 1946-2009--Political and social views.",
+    "componentList" : "http://id.loc.gov/resources/REPLACE/21026276#Agent600-27",
+    "isMemberOfMADSScheme" : "http://id.loc.gov/authorities/subjects"
+  }, {
+    "@id" : "_:b21",
+    "@type" : "bf:Contribution",
+    "agent" : "http://id.loc.gov/rwo/agents/n2019037636",
+    "role" : "http://id.loc.gov/vocabulary/relators/aut"
+  }, {
+    "@id" : "_:b22",
+    "@type" : "bf:SupplementaryContent",
+    "label" : "Includes bibliographical references (page 232)."
+  }, {
+    "@id" : "_:b23",
+    "@type" : "bf:ClassificationLcc",
+    "classificationPortion" : "DS922.4642.N6",
+    "itemPortion" : "C45 2018",
+    "source" : "http://id.loc.gov/vocabulary/organizations/dlc"
+  }, {
+    "@id" : "_:b3",
+    "@type" : [ "madsrdf:ComplexSubject", "bf:Topic" ],
+    "aap-normalized" : "politicalleadershipkorea(south)",
+    "authoritativeLabel" : "Political leadership--Korea (South)",
+    "componentList" : {
+      "@list" : [ "_:b18", "_:b0" ]
+    },
+    "isMemberOfMADSScheme" : "http://id.loc.gov/authorities/subjects",
+    "label" : "Political leadership--Korea (South)"
+  }, {
+    "@id" : "_:b6",
+    "@type" : [ "bf:Agent", "bf:Source" ],
+    "label" : "CLU"
+  }, {
+    "@id" : "_:b7",
+    "@type" : [ "bflc:PrimaryContribution", "bf:Contribution" ],
+    "agent" : "http://id.loc.gov/rwo/agents/n2019037634",
+    "role" : "http://id.loc.gov/vocabulary/relators/aut"
+  }, {
+    "@id" : "_:b8",
+    "@type" : "bf:Contribution",
+    "agent" : "http://id.loc.gov/rwo/agents/n2019037635",
+    "role" : "http://id.loc.gov/vocabulary/relators/aut"
+  }, {
+    "@id" : "_:b9",
+    "@type" : [ "bf:Agent", "bf:Source" ],
+    "label" : "CLU"
+  }, {
+    "@id" : "http://id.loc.gov/resources/works/21026276",
+    "@type" : [ "bf:Work", "bf:Text" ],
+    "aap" : "Chŏn, Pyŏng-hwan, No Mu-hyŏn ŭl wihan pyŏnmyŏng",
+    "aap-normalized" : "chŏnpyŏnghwannomuhyŏnŭlwihanpyŏnmyŏng",
+    "aapVariant" : [ "Kim, T'ae-hyŏn (Entrepreneur), No Mu-hyŏn ŭl wihan pyŏnmyŏng", "홍 종화 (Writer on No Mu-hyŏn), No Mu-hyŏn ŭl wihan pyŏnmyŏng", "Hong, Chong-hwa (Writer on No Mu-hyŏn), No Mu-hyŏn ŭl wihan pyŏnmyŏng", "김 태현 (Entrepreneur), No Mu-hyŏn ŭl wihan pyŏnmyŏng", "전 병환, No Mu-hyŏn ŭl wihan pyŏnmyŏng" ],
+    "aapVariant-normalized" : [ "전병환nomuhyŏnŭlwihanpyŏnmyŏng", "kimt'aehyŏn(entrepreneur)nomuhyŏnŭlwihanpyŏnmyŏng", "hongchonghwa(writeronnomuhyŏn)nomuhyŏnŭlwihanpyŏnmyŏng", "김태현(entrepreneur)nomuhyŏnŭlwihanpyŏnmyŏng", "홍종화(writeronnomuhyŏn)nomuhyŏnŭlwihanpyŏnmyŏng" ],
+    "adminMetadata" : "_:b13",
+    "classification" : "_:b23",
+    "content" : "http://id.loc.gov/vocabulary/contentTypes/txt",
+    "contribution" : [ "_:b7", "_:b21", "_:b17", "_:b1", "_:b11", "_:b8" ],
+    "genreForm" : "http://id.loc.gov/authorities/genreForms/gf2014026049",
+    "geographicCoverage" : "http://id.loc.gov/vocabulary/geographicAreas/a-ko",
+    "hasInstance" : "http://id.loc.gov/resources/instances/21026276",
+    "identifiedBy" : "_:b19",
+    "language" : "http://id.loc.gov/vocabulary/languages/kor",
+    "subject" : [ "http://id.loc.gov/authorities/subjects/sh91003875", "http://id.loc.gov/authorities/subjects/sh2008109954", "http://id.loc.gov/authorities/subjects/sh2007005624", "_:b20", "_:b3" ],
+    "supplementaryContent" : [ "http://id.loc.gov/authorities/genreForms/gf2014026048", "_:b22" ],
+    "title" : [ "_:b16", "_:b10" ],
+    "isPartOf" : "http://id.loc.gov/resources/works",
+    "label" : "No Mu-hyŏn ŭl wihan pyŏnmyŏng"
+  } ],
+  "@id" : "urn:x-arq:DefaultGraphNode",
+  "@context" : {
+    "authoritativeLabel" : "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
+    "role" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/role",
+      "@type" : "@id"
+    },
+    "agent" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/agent",
+      "@type" : "@id"
+    },
+    "assigner" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/assigner",
+      "@type" : "@id"
+    },
+    "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+    "aap-normalized" : "http://id.loc.gov/ontologies/bflc/aap-normalized",
+    "componentList" : {
+      "@id" : "http://www.loc.gov/mads/rdf/v1#componentList",
+      "@type" : "@id"
+    },
+    "isMemberOfMADSScheme" : {
+      "@id" : "http://www.loc.gov/mads/rdf/v1#isMemberOfMADSScheme",
+      "@type" : "@id"
+    },
+    "label" : "http://www.w3.org/2000/01/rdf-schema#label",
+    "rest" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+      "@type" : "@id"
+    },
+    "first" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+      "@type" : "@id"
+    },
+    "mainTitle" : "http://id.loc.gov/ontologies/bibframe/mainTitle",
+    "descriptionModifier" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/descriptionModifier",
+      "@type" : "@id"
+    },
+    "status" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/status",
+      "@type" : "@id"
+    },
+    "descriptionAuthentication" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/descriptionAuthentication",
+      "@type" : "@id"
+    },
+    "generationProcess" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/generationProcess",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/source",
+      "@type" : "@id"
+    },
+    "creationDate" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/creationDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "identifiedBy" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/identifiedBy",
+      "@type" : "@id"
+    },
+    "changeDate" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/changeDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "descriptionLanguage" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/descriptionLanguage",
+      "@type" : "@id"
+    },
+    "descriptionConventions" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/descriptionConventions",
+      "@type" : "@id"
+    },
+    "encodingLevel" : {
+      "@id" : "http://id.loc.gov/ontologies/bflc/encodingLevel",
+      "@type" : "@id"
+    },
+    "subject" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/subject",
+      "@type" : "@id"
+    },
+    "contribution" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/contribution",
+      "@type" : "@id"
+    },
+    "aapVariant-normalized" : "http://id.loc.gov/ontologies/bflc/aapVariant-normalized",
+    "adminMetadata" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/adminMetadata",
+      "@type" : "@id"
+    },
+    "aapVariant" : "http://id.loc.gov/ontologies/bflc/aapVariant",
+    "title" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/title",
+      "@type" : "@id"
+    },
+    "isPartOf" : {
+      "@id" : "http://purl.org/dc/terms/isPartOf",
+      "@type" : "@id"
+    },
+    "genreForm" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/genreForm",
+      "@type" : "@id"
+    },
+    "hasInstance" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/hasInstance",
+      "@type" : "@id"
+    },
+    "supplementaryContent" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
+      "@type" : "@id"
+    },
+    "content" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/content",
+      "@type" : "@id"
+    },
+    "language" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/language",
+      "@type" : "@id"
+    },
+    "classification" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/classification",
+      "@type" : "@id"
+    },
+    "geographicCoverage" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
+      "@type" : "@id"
+    },
+    "aap" : "http://id.loc.gov/ontologies/bflc/aap",
+    "itemPortion" : "http://id.loc.gov/ontologies/bibframe/itemPortion",
+    "classificationPortion" : "http://id.loc.gov/ontologies/bibframe/classificationPortion",
+    "code" : "http://id.loc.gov/ontologies/bibframe/code",
+    "bf" : "http://id.loc.gov/ontologies/bibframe/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "bflc" : "http://id.loc.gov/ontologies/bflc/",
+    "madsrdf" : "http://www.loc.gov/mads/rdf/v1#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

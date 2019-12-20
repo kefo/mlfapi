@@ -1,0 +1,5 @@
+{
+  "role-name" : "mlfapi-nobody",
+  "description" : "Unauthenticated user",
+  "role" : [ ]
+}

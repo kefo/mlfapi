@@ -1,0 +1,5 @@
+{
+  "role-name" : "mlfapi-internal",
+  "description" : "Internal role used for amping",
+  "role" : [ "mlfapi-writer" ]
+}

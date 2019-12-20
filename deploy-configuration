@@ -1,0 +1,10 @@
+#!/bin/bash
+
+##################################################################
+# This protects against not being able to locate the `config` file.
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+source $DIR/gradlew-params
+
+./gradlew --debug mlDeploy -PenvironmentName=$ENVIRO -PmlUsername=$MLADMIN -PmlPassword=$MLPASSWORD -PdevModulesFileSystemLoc=$DEVMODULESFSLOC -PmlfapiAdminPass=$MLFAPI_ADMIN_PASS -PmlfapiReaderPass=$MLFAPI_READER_PASS -PmlfapiWriterPass=$MLFAPI_WRITER_PASS
+

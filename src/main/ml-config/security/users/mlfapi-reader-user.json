@@ -1,0 +1,5 @@
+{
+  "user-name" : "mlfapi-reader",
+  "password" : "%%mlfapiReaderPass%%",
+  "role" : [ "mlfapi-reader" ]
+}

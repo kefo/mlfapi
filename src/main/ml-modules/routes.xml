@@ -1,0 +1,39 @@
+<rewriter xmlns="http://marklogic.com/xdmp/rewriter">
+
+    <match-method any-of="GET">
+        <match-path matches="^/(.*).mets.xml$">
+            <add-query-param name="uripath">$1</add-query-param>
+            <add-query-param name="view">mets</add-query-param>
+            <dispatch>/controllers/get.xqy</dispatch>
+        </match-path>
+    </match-method>
+    
+    <match-method any-of="GET">
+        <match-path matches="^/(.*)$">
+            <add-query-param name="uripath">$1</add-query-param>
+            <dispatch>/controllers/get.xqy</dispatch>
+        </match-path>
+    </match-method>
+    
+    <match-method any-of="PUT">
+        <match-path matches="^/(.*)$">
+            <add-query-param name="uripath">$1</add-query-param>
+            <dispatch>/controllers/put.xqy</dispatch>
+        </match-path>
+    </match-method>
+    
+    <match-method any-of="POST">
+        <match-path matches="^/(.*)$">
+            <add-query-param name="uripath">$1</add-query-param>
+            <dispatch>/controllers/post.xqy</dispatch>
+        </match-path>
+    </match-method>
+
+    <match-method any-of="DELETE">
+        <match-path matches="^/(.*)$">
+            <add-query-param name="uripath">$1</add-query-param>
+            <dispatch>/controllers/delete.xqy</dispatch>
+        </match-path>
+    </match-method>
+
+</rewriter>

@@ -1,0 +1,114 @@
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bflc:  <http://id.loc.gov/ontologies/bflc/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+_:b0    a                           madsrdf:Geographic ;
+        madsrdf:authoritativeLabel  "Korea (South)" .
+
+_:b1    a                           madsrdf:Topic ;
+        madsrdf:authoritativeLabel  "Political leadership" .
+
+<>
+        a                           bf:Work , bf:Text ;
+        rdfs:label                  "No Mu-hyŏn ŭl wihan pyŏnmyŏng" ;
+        bflc:aap                    "Chŏn, Pyŏng-hwan, No Mu-hyŏn ŭl wihan pyŏnmyŏng" ;
+        bflc:aap-normalized         "chŏnpyŏnghwannomuhyŏnŭlwihanpyŏnmyŏng" ;
+        bflc:aapVariant             "Kim, T'ae-hyŏn (Entrepreneur), No Mu-hyŏn ŭl wihan pyŏnmyŏng" , "홍 종화 (Writer on No Mu-hyŏn), No Mu-hyŏn ŭl wihan pyŏnmyŏng" , "Hong, Chong-hwa (Writer on No Mu-hyŏn), No Mu-hyŏn ŭl wihan pyŏnmyŏng" , "김 태현 (Entrepreneur), No Mu-hyŏn ŭl wihan pyŏnmyŏng" , "전 병환, No Mu-hyŏn ŭl wihan pyŏnmyŏng" ;
+        bflc:aapVariant-normalized  "전병환nomuhyŏnŭlwihanpyŏnmyŏng" , "kimt'aehyŏn(entrepreneur)nomuhyŏnŭlwihanpyŏnmyŏng" , "hongchonghwa(writeronnomuhyŏn)nomuhyŏnŭlwihanpyŏnmyŏng" , "김태현(entrepreneur)nomuhyŏnŭlwihanpyŏnmyŏng" , "홍종화(writeronnomuhyŏn)nomuhyŏnŭlwihanpyŏnmyŏng" ;
+        bf:adminMetadata            [ a                             bf:AdminMetadata ;
+                                      bflc:encodingLevel            <http://id.loc.gov/vocabulary/menclvl/f> ;
+                                      bf:changeDate                 "2019-06-27T14:25:17"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                                      bf:creationDate               "2019-06-19"^^<http://www.w3.org/2001/XMLSchema#date> ;
+                                      bf:descriptionAuthentication  <http://id.loc.gov/vocabulary/marcauthen/lccopycat> ;
+                                      bf:descriptionConventions     <http://id.loc.gov/vocabulary/descriptionConventions/isbd> , <http://id.loc.gov/vocabulary/descriptionConventions/rda> ;
+                                      bf:descriptionLanguage        <http://id.loc.gov/vocabulary/languages/eng> ;
+                                      bf:descriptionModifier        <http://id.loc.gov/vocabulary/organizations/dlc> ;
+                                      bf:descriptionModifier        [ a           bf:Agent ;
+                                                                      rdfs:label  "OCLCF"
+                                                                    ] ;
+                                      bf:generationProcess          [ a           bf:GenerationProcess ;
+                                                                      rdfs:label  "DLC marc2bibframe2 v1.6.0-SNAPSHOT: 2019-08-22T11:16:50-04:00"
+                                                                    ] ;
+                                      bf:identifiedBy               [ a            bf:Local ;
+                                                                      rdf:value    "21026276" ;
+                                                                      bf:assigner  <http://id.loc.gov/vocabulary/organizations/dlc>
+                                                                    ] ;
+                                      bf:source                     [ a           bf:Agent , bf:Source ;
+                                                                      rdfs:label  "CLU"
+                                                                    ] ;
+                                      bf:source                     [ a           bf:Agent , bf:Source ;
+                                                                      rdfs:label  "CLU"
+                                                                    ] ;
+                                      bf:status                     [ a           bf:Status ;
+                                                                      rdfs:label  "corrected or revised" ;
+                                                                      bf:code     "c"
+                                                                    ]
+                                    ] ;
+        bf:classification           [ a                         bf:ClassificationLcc ;
+                                      bf:classificationPortion  "DS922.4642.N6" ;
+                                      bf:itemPortion            "C45 2018" ;
+                                      bf:source                 <http://id.loc.gov/vocabulary/organizations/dlc>
+                                    ] ;
+        bf:content                  <http://id.loc.gov/vocabulary/contentTypes/txt> ;
+        bf:contribution             [ a         bf:Contribution ;
+                                      bf:agent  <http://id.loc.gov/rwo/agents/n2019037635> ;
+                                      bf:role   <http://id.loc.gov/vocabulary/relators/aut>
+                                    ] ;
+        bf:contribution             [ a         bflc:PrimaryContribution , bf:Contribution ;
+                                      bf:agent  <http://id.loc.gov/rwo/agents/n2019037634> ;
+                                      bf:role   <http://id.loc.gov/vocabulary/relators/aut>
+                                    ] ;
+        bf:contribution             [ a         bflc:PrimaryContribution , bf:Contribution ;
+                                      bf:agent  <http://id.loc.gov/rwo/agents/n2019037634> ;
+                                      bf:role   <http://id.loc.gov/vocabulary/relators/aut>
+                                    ] ;
+        bf:contribution             [ a         bf:Contribution ;
+                                      bf:agent  <http://id.loc.gov/rwo/agents/n2019037636> ;
+                                      bf:role   <http://id.loc.gov/vocabulary/relators/aut>
+                                    ] ;
+        bf:contribution             [ a         bf:Contribution ;
+                                      bf:agent  <http://id.loc.gov/rwo/agents/n2019037636> ;
+                                      bf:role   <http://id.loc.gov/vocabulary/relators/aut>
+                                    ] ;
+        bf:contribution             [ a         bf:Contribution ;
+                                      bf:agent  <http://id.loc.gov/rwo/agents/n2019037635> ;
+                                      bf:role   <http://id.loc.gov/vocabulary/relators/aut>
+                                    ] ;
+        bf:genreForm                <http://id.loc.gov/authorities/genreForms/gf2014026049> ;
+        bf:geographicCoverage       <http://id.loc.gov/vocabulary/geographicAreas/a-ko> ;
+        bf:hasInstance              <http://id.loc.gov/resources/instances/21026276> ;
+        bf:identifiedBy             [ a          bf:Lccn ;
+                                      rdf:value  "  2019411212"
+                                    ] ;
+        bf:language                 <http://id.loc.gov/vocabulary/languages/kor> ;
+        bf:subject                  <http://id.loc.gov/authorities/subjects/sh91003875> , <http://id.loc.gov/authorities/subjects/sh2008109954> , <http://id.loc.gov/authorities/subjects/sh2007005624> ;
+        bf:subject                  [ a                             madsrdf:ComplexSubject , bf:Topic ;
+                                      bflc:aap-normalized           "rohmoohyun19462009politicalandsocialviews" ;
+                                      madsrdf:authoritativeLabel    "Roh, Moo Hyun, 1946-2009--Political and social views." ;
+                                      madsrdf:componentList         <http://id.loc.gov/resources/REPLACE/21026276#Agent600-27> ;
+                                      madsrdf:isMemberOfMADSScheme  <http://id.loc.gov/authorities/subjects>
+                                    ] ;
+        bf:subject                  [ a                             madsrdf:ComplexSubject , bf:Topic ;
+                                      rdfs:label                    "Political leadership--Korea (South)" ;
+                                      bflc:aap-normalized           "politicalleadershipkorea(south)" ;
+                                      madsrdf:authoritativeLabel    "Political leadership--Korea (South)" ;
+                                      madsrdf:componentList         ( _:b1 _:b0 ) ;
+                                      madsrdf:isMemberOfMADSScheme  <http://id.loc.gov/authorities/subjects>
+                                    ] ;
+        bf:supplementaryContent     <http://id.loc.gov/authorities/genreForms/gf2014026048> ;
+        bf:supplementaryContent     [ a           bf:SupplementaryContent ;
+                                      rdfs:label  "Includes bibliographical references (page 232)."
+                                    ] ;
+        bf:title                    [ a             bf:Title ;
+                                      rdfs:label    "노 무현 을 위한 변명"@ko-hang ;
+                                      bf:mainTitle  "노 무현 을 위한 변명"@ko-hang
+                                    ] ;
+        bf:title                    [ a             bf:Title ;
+                                      rdfs:label    "No Mu-hyŏn ŭl wihan pyŏnmyŏng" ;
+                                      bf:mainTitle  "No Mu-hyŏn ŭl wihan pyŏnmyŏng"
+                                    ] ;
+        dcterms:isPartOf            <http://id.loc.gov/resources/works> .
+
